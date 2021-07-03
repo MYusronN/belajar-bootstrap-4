@@ -39,8 +39,39 @@
             </ul>
         </div>
     </nav>
+    <main class="py-4">
+        <div class="container">
+            <button class="btn btn-success" data-target="#myModal" data-toggle="modal">
+                    Forgot Password
+            </button>
+            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="loginModal" id="myModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary text-light">
+                            <div class="modal-title">Please Enter Your Email To Reset Password</div>
+                            <button type="button" class=" close text-light" data-dismiss="modal" aria-labelledby="Close">
+                                    <span aria-labelledby="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" class=" form-control ">
+                            </div>
+                            <button class="btn btn-primary" type="button">Reset</button>
+                        </div>
+                        <!--<div class="modal-footer">
+                                <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" type="button">Login</button>
+                        </div>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- Link Javascript-->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js "></script>
     <script src=" assets/js/bootstrap.min.js "></script>
 </body>
 
